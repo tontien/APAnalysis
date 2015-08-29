@@ -16,6 +16,7 @@ class ChampionDao
 		bdd = bd;
 	}
 	
+	// Parsing functions
 	public function insertChampion(id:Int, title:String, name:String, key:String, version:String)
 	{
 		bdd.getCnx().request("insert into test.Champion (championId, title, name, keyChampion, version) values (" + id + ",'" + title +"','" + name +"','" + key +"','" + version +"')");
@@ -26,6 +27,7 @@ class ChampionDao
 		bdd.getCnx().request("insert into test.champion_tags (keyChampion, tag) values ('" + id + "','" + tag +"')");
 	}
 	
+	// UI functions
 	public function selectChampion()
 	{
 		return bdd.getCnx().request("select champion.keyChampion, dtw_champion11.name, dtw_champion11.winrate as winrate11, dtw_champion14.winrate as winrate14, dtw_champion14.winrate - dtw_champion11.winrate as winrate, dtw_champion11.game/98198*1000 as pickrate11, dtw_champion14.game/104237*1000 as pickrate14 from dtw_champion11, dtw_champion14, champion where dtw_champion11.name = dtw_champion14.name and dtw_champion11.name = champion.name group by dtw_champion11.name ORDER BY name  ASC");
