@@ -1,5 +1,10 @@
 #AP Analysis
 
+### Live website
+The demo can be found at: [AP Analysis](http://www.meilleursjeux.net/APAnalysis)
+
+
+### The project
 AP Analysis is a tool where you can discover throught graphs and statistics the impact of the change on AP items. 
 This project is divided in three parts:
 
@@ -9,10 +14,7 @@ This project is divided in three parts:
 
 3) A deep analysis about this impact
 
-
-### Live website
-The website can be found:
-http://www.meilleursjeux.net/APAnalysis
+More information on [About page](http://www.meilleursjeux.net/APAnalysis/about/)
 
 ### Technologies used
 
@@ -21,7 +23,7 @@ http://www.meilleursjeux.net/APAnalysis
 * Template Website: BootStrap
 * Graphic Library: Chartjs
 
-### TODO
+### TODO List
 
 Compare all regions (parse the rest of the data)
 
