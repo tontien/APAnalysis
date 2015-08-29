@@ -19,7 +19,7 @@ class ItemDao
 	// Parsing functions
 	public function insertItem(id:Int, description:String, name:String, group:String, version:String)
 	{
-		bdd.getCnx().request("insert into test.Item (item_id, description, name, group_item, version) values (" + id + ",'" + description +"','" + name +"','" + group +"','" + version +"')");
+		bdd.getCnx().request("insert into Item (item_id, description, name, group_item, version) values (" + id + ",'" + description +"','" + name +"','" + group +"','" + version +"')");
 	}
 	
 	// UI functions
