@@ -17,12 +17,14 @@ class MatchDao
 		bdd = bd;
 	}
 	
+	// Check if the match is already in the database
 	public function check(matchId:String)
 	{
 		var results:ResultSet = bdd.getCnx().request("select count(*) from test.Match where matchId=" + Std.parseFloat(matchId));
 		return results.getResult(0);
 	}
 	
+	// Parsing functions
 	public function insertGeneral(mapId:Int, matchCreation:Int, matchDuration:Int, matchId:Int, matchMode:String, matchType:String, matchVersion:String, platformId:String, queueType:String, region:String, season:String)
 	{
 		bdd.getCnx().request("insert into test.Match (mapId, matchCreation, matchDuration, matchId, matchMode, matchType, matchVersion, platformId, queueType, region, season) values (" + mapId +"," + matchCreation +"," + matchDuration +"," + matchId +",'" + matchMode +"','" + matchType +"','" + matchVersion +"','" + platformId +"','" + queueType +"','" + region +"','" + season + "')");
