@@ -4,7 +4,7 @@
 The demo can be found at: [AP Analysis](http://www.meilleursjeux.net/APAnalysis)
 
 ## The project
-AP Analysis is a tool where you can discover throught graphs and statistics the impact of the change on AP items. 
+AP Analysis is a tool where you can discover through graphs and statistics the impact of the change on AP items. 
 This project is divided in three parts:
 
 1) Framework to parse the data .json files
