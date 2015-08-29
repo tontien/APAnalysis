@@ -38,4 +38,4 @@ In order to parse the data from json files, you need to create the database firs
 
 ### Compile the project
 
-  haxe  -cp src -php 'path_to_compile' -main Main
+    haxe  -cp src -php 'path_to_compile' -main Main
