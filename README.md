@@ -36,6 +36,19 @@ More information on [About page](http://www.meilleursjeux.net/APAnalysis/about/)
 ### Database
 In order to parse the data from json files, you need to create the database first. You can find at the root folder a SQL script "BDD_DDL_Script.sql". If you only want to run the website, only the dtw_tables can be imported. In this project, I choose to parse all data in development side and aggregate them in tables used by the website. (You will only also need to import the referential tables champions and items).
 
+### Configuration
+
+Your API key in constant/Constant.hx
+
+    public static inline var API_KEY:String = "MORDE-IS-THE-KING";
+
+Your database in dao/Bdd.hx
+
+    // Syntax is PDO.open("mysql:dbname=database;host=server", "user", "password", "options");
+    cnx = PDO.open("");
+
 ### Compile the project
 
     haxe  -cp src -php 'path_to_compile' -main Main
+
+And then you can be able to your localhost server.
