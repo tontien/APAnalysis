@@ -19,12 +19,12 @@ class ChampionDao
 	// Parsing functions
 	public function insertChampion(id:Int, title:String, name:String, key:String, version:String)
 	{
-		bdd.getCnx().request("insert into test.Champion (championId, title, name, keyChampion, version) values (" + id + ",'" + title +"','" + name +"','" + key +"','" + version +"')");
+		bdd.getCnx().request("insert into Champion (championId, title, name, keyChampion, version) values (" + id + ",'" + title +"','" + name +"','" + key +"','" + version +"')");
 	}
 	
 	public function insertChampionTag(id:String, tag:String)
 	{
-		bdd.getCnx().request("insert into test.champion_tags (keyChampion, tag) values ('" + id + "','" + tag +"')");
+		bdd.getCnx().request("insert into Champion_tags (keyChampion, tag) values ('" + id + "','" + tag +"')");
 	}
 	
 	// UI functions
