@@ -277,7 +277,7 @@ class Analysis
 					<tr class="info">
 						<td>Janna</td>
 						<td>Wards places</td>
-						<td>ou should consider myself as a support</td>
+						<td>You should consider myself as a support</td>
 						<td>24</td>
 						<td>9</td>
 					</tr>
