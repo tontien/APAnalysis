@@ -1,10 +1,9 @@
 #AP Analysis
 
-### Live website
+## Live website
 The demo can be found at: [AP Analysis](http://www.meilleursjeux.net/APAnalysis)
 
-
-### The project
+## The project
 AP Analysis is a tool where you can discover throught graphs and statistics the impact of the change on AP items. 
 This project is divided in three parts:
 
@@ -16,19 +15,27 @@ This project is divided in three parts:
 
 More information on [About page](http://www.meilleursjeux.net/APAnalysis/about/)
 
-### Technologies used
+## TODO List
+
+* Compare all regions (parse the rest of the data)
+* Use the timelines events (I will probably say the Mage have an advantage in the early game)
+* Dig deeper into the use of AP items
+* Create the interactive website (live)
+
+# Build the project
+
+## Technologies used
 
 * Server Code: Haxe
 * Database: Mysql
 * Template Website: BootStrap
 * Graphic Library: Chartjs
 
-### TODO List
+## Installation
 
-Compare all regions (parse the rest of the data)
+### Database
+In order to parse the data from json files, you need to create the database first. You can find at the root folder a SQL script "BDD_DDL_Script.sql". If you only want to run the website, only the dtw_tables can be imported. In this project, I choose to parse all data in development side and aggregate them in tables used by the website. (You will only also need to import the referential tables champions and items).
 
-Use the timelines events (I will probably say the Mage have an advantage in the early game)
+### Compile the project
 
-Dig deeper into the use of AP items
-
-Create the interactive website (live)
+  haxe  -cp src -php 'path_to_compile' -main Main
