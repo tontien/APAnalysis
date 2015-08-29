@@ -14,6 +14,8 @@ class Bdd
 
 	public function new() 
 	{
+		// Edit the connection for the database. 
+		// Syntax is PDO.open("mysql:dbname=database;host=server", "user", "password", "options");
 		cnx = PDO.open("");
 	}
 	
