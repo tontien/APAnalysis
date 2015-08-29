@@ -73,7 +73,7 @@ class About
 		
 		I did use some time to analyse the API and parse all the games in order to have all data in MySql Database. I did not look for another type, I knew it was convenient and already
 		use it as it is the most common database for the websites. I had to do a choice about the data itself, I knew i could not have the time to parse the entire data sets provided by 
-		Riot games. Finally i choose to parse EUW data (some of the normal games, some of ranked games) for both patches.</p>
+		Riot games. Finally i choose to parse EUW data (some of normal games, some of ranked games) for both patches.</p>
 		
 		<h3>Create the website</h3>
 		
