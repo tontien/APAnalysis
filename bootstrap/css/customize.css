@@ -1,0 +1,147 @@
+body
+{
+background-color: #babec3;
+color: black;
+}
+th
+{
+background-color: white;
+}
+th,td
+{
+text-align: center;
+}
+a
+{
+color: black;
+}
+#canvas-holder{
+width:240px;
+}
+
+.doughnut-legend li span {
+  display: block;
+  width: 14px;
+  height: 14px;
+  float: left;
+  margin-top: 4px;
+  margin-right: 8px;
+}
+
+.doughnut-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  margin-top : 20px;
+
+}
+
+.doughnut-legend li {
+  margin-bottom : 4px;
+}
+
+.doughnut-legend li:first-letter {
+  text-transform: capitalize;
+}
+
+.comm-how {
+  display: inline-block;
+  float : left;
+  color : #979797;
+  width : 50px;
+  text-align: right;
+  margin-right : 10px;
+}
+
+
+.bar-legend li span {
+  display: block;
+  width: 14px;
+  height: 14px;
+  float: left;
+  margin-top: 4px;
+  margin-right: 8px;
+  margin-left: 50px;
+}
+
+.bar-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  margin-top : 20px;
+
+}
+
+.bar-legend li {
+  margin-bottom : 4px;
+}
+
+.bar-legend li:first-letter {
+  text-transform: capitalize;
+}
+
+
+
+.radar-legend li span {
+  display: block;
+  width: 14px;
+  height: 14px;
+  float: left;
+  margin-top: 4px;
+  margin-right: 8px;
+  margin-left: 50px;
+}
+
+.radar-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  margin-top : 20px;
+
+}
+
+.radar-legend li {
+  margin-bottom : 4px;
+}
+
+.radar-legend li:first-letter {
+  text-transform: capitalize;
+}
+
+
+.line-legend li span {
+  display: block;
+  width: 14px;
+  height: 14px;
+  float: left;
+  margin-top: 4px;
+  margin-right: 8px;
+  margin-left: 50px;
+}
+
+.line-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  margin-top : 20px;
+
+}
+
+.line-legend li {
+  margin-bottom : 4px;
+}
+
+.line-legend li:first-letter {
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
