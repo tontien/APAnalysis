@@ -41,6 +41,7 @@ class ActionController
 	}
 	
 	// Page Champion details
+	// @param: Champion name
 	public function doChampion(dispatcher:Dispatch, name:String)
 	{
 		Lib.print(new Champion().display());
