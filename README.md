@@ -51,4 +51,4 @@ Your database in dao/Bdd.hx
 
     haxe  -cp src -php 'path_to_compile' -main Main
 
-And then you can be able to your localhost server.
+And then you can be able to see your site on your localhost server.
